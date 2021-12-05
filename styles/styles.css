@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px/16px = 62.5% -> 1rem = 10px */
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  width: 110rem;
+  margin: 2rem auto;
+  background-color: #faf9f9;
+  /* height: 100%; */
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin: 1rem 0;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.main-header {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.first_page {
+  display: flex;
+  flex-direction: row;
+  /* height: 100%; */
+}
+
+.first_page--image {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.first_page--content {
+  display: flex;
+  flex-direction: column;
+  /* height: 50px; */
+  padding: 1rem 2rem 1rem 2rem;
+  /* background-color: blue; */
+  margin: 0 auto;
+}
+
+ul,
+ol {
+  list-style: none;
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+li {
+  color: #101d2c;
+  padding: 1rem 0;
+
+  flex-direction: column;
+}
+.li-steps {
+  display: flex;
+}
+
+.list-ingr {
+  font-size: 1.8rem;
+  padding: 0.5rem 0;
+}
+
+.recipe-link {
+  margin-top: auto;
+  font-size: 2rem;
+  color: #333;
+  /* margin-bottom: auto; */
+}
+.res-link {
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+
+.recipe-pages {
+  /* margin-bottom: auto; */
+}
+a {
+  text-decoration: none;
+}
+
+i {
+  margin-right: 0.5rem;
+}
+
+.icon-arrow {
+  color: #55c57a;
+}
+
+/* Recipe pages  */
+.recipes {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.recipe-imingr {
+  display: flex;
+  width: auto;
+}
+.recipe-image {
+  flex: 0 0 50%;
+}
+.rec-image {
+  height: 40rem;
+  width: auto;
+}
+.recipe-ingr {
+  /* font-size: 1.8rem; */
+  padding: 1rem 0;
+}
+.recipe-steps {
+  padding: 2rem 1rem;
+  background-color: rgb(252, 243, 231);
+}
+
+.recipe-steps-header {
+  padding: 0.5rem 0;
+  color: rgb(23, 189, 59);
+  font-size: 1.8rem;
+}
+
+nav {
+  padding: 1.5rem 2rem;
+}
+
+.home {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  /* margin: 5rem 5rem; */
+  background-color: cadetblue;
+
+  color: cornsilk;
+  border-radius: 1000px;
+  border: 1px solid cadetblue;
+}
